@@ -1,0 +1,27 @@
+/* Introduction Section ===================================*/
+.main {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 218px;
+  height: fit-content;
+}
+.introduction-title {
+  font-size: 4.5rem;
+  line-height: 6rem;
+  background-image: var(--introductionTitleGradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.introduction-title::selection {
+  background-color: transparent;
+}
+.description-home {
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
